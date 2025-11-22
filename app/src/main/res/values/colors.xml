@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <color name="display_background">#1E1E2E</color>
+    <color name="display_text">#FFFFFF</color>
+    <color name="number_button">#2D3250</color>
+    <color name="number_button_pressed">#424769</color>
+    <color name="operator_button">#F39C12</color>
+    <color name="operator_button_pressed">#E67E22</color>
+    <color name="equals_button">#27AE60</color>
+    <color name="equals_button_pressed">#229954</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_stroke">#7077A1</color>
+</resources>
