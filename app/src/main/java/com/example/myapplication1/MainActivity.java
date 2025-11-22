@@ -42,9 +42,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void onOperatorButtonClick(View view) {
         Button button = (Button) view;
-        selectedOperator = button.getText().toString().charAt(0);
-        firstOperand = (int) Double.parseDouble(displayTextView.getText().toString());
-        displayTextView.setText("");
+        String displayText = displayTextView.getText().toString();
+        if (!displayText.isEmpty()) {
+            selectedOperator = button.getText().toString().charAt(0);
+            firstOperand = (int) Double.parseDouble(displayText);
+            displayTextView.setText("");
+        }
     }
 
     public void onEqualsButtonClick(View view) {
